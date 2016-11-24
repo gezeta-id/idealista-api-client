@@ -1,0 +1,30 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "Un cliente en node para el api de idealista usando SuperAgent",
+  "main": "src/index.js",
+  "scripts": {
+    "main": "node src/index.js --locationId=0-EU-ES-28-07 --propertyType=homes --operation=sale",
+    "benchmark": "node src/index.js --mode=benchmark",
+    "test": "mocha --reporter spec",
+    "watch": "mocha --reporter min --watch --recursive test/"
+  },
+  "keywords": [
+    "api",
+    "idealista",
+    "hackaton"
+  ],
+  "author": "greboreda, gbrachi",
+  "dependencies": {
+    "chai": "^2.0.0",
+    "console.table": "^0.7.0",
+    "mocha": "^2.0.1",
+    "sinon": "^1.12.1",
+    "sinon-chai": "^2.7.0",
+    "superagent": "^2.2.0",
+    "superagent-throttle": "^0.1.1",
+    "yargs": "^5.0.0"
+  },
+  "license": "ISC",
+  "APIKEY": "cwzh97byqgqb8iyo2s3cme2u3glnyfaq"
+}
