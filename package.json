@@ -21,8 +21,8 @@
     "mocha": "^2.0.1",
     "sinon": "^1.12.1",
     "sinon-chai": "^2.7.0",
-    "superagent": "^2.2.0",
-    "superagent-throttle": "^0.1.1",
+    "superagent": "^3.7.0",
+    "superagent-throttle": "^0.2.5",
     "yargs": "^5.0.0"
   },
   "license": "ISC",
